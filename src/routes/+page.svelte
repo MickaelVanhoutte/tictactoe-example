@@ -30,6 +30,9 @@
         } else if (row === 'OOO' || col === 'OOO' || diag1 === 'OOO' || diag2 === 'OOO') {
             alert('O wins');
             reset();
+        }else {
+            alert('Draw');
+            reset();
         }
     }
 
